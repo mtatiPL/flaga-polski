@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">projekt</string>
+    <string name="pytanie">"Chose colors which aren't in Polish "</string>
+    <string name="zla_odp">this button must stay</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/moj_granatowy"
+    android:gravity="bottom"
+    >
+<!-- komentarz-->
+
+    <TextView
+        android:id="@+id/pytanieTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pytanie"
+        android:textColor="@color/moj_czerwony"
+ android:gravity="center"
+        android:padding="@dimen/padding_duzy"
+        android:textSize="@dimen/rozmiar_czcionki"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+android:onClick="dobraOdpowiedz"
+            android:backgroundTint="@color/black"
+            android:layout_margin="@dimen/button_margin"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dobraOdpowiedz"
+            android:backgroundTint="@color/moj_niebieski"
+            android:layout_margin="@dimen/button_margin"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dobraOdpowiedz"
+            android:backgroundTint="@color/moj_zielony"
+            android:layout_margin="@dimen/button_margin"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+      android:onClick="zlaOdpowiedz"
+            android:backgroundTint="@color/moj_czerwony"
+            android:layout_margin="@dimen/button_margin"
+
+            />
+
+    </LinearLayout>
+    <!--    normalnie nie stosować onclicka        -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="zlaOdpowiedz"
+            android:backgroundTint="@color/white"
+            android:layout_margin="@dimen/button_margin"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dobraOdpowiedz"
+            android:backgroundTint="@color/moj_rozowy"
+            android:layout_margin="@dimen/button_margin"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="dobraOdpowiedz"
+            android:layout_margin="@dimen/button_margin"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -28,4 +28,8 @@ public int licznik;
 
         }
     }
+
+    public void reset(View view) {
+        view.setVisibility(View.VISIBLE);
+    }
 }

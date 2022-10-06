@@ -11,6 +11,13 @@
     >
 <!-- komentarz-->
 
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:onClick="reset"/>
+
     <TextView
         android:id="@+id/pytanieTextview"
         android:layout_width="wrap_content"
@@ -35,6 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
 android:onClick="dobraOdpowiedz"
+
             android:backgroundTint="@color/black"
             android:layout_margin="@dimen/button_margin"/>
 
